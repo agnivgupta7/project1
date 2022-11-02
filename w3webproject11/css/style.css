@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgb(49, 13, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    line-height: 50px;
+    padding-left: 130px;
+}
+
+.icon {
+    display: flex;
+    color: rgb(208, 255, 0);
+    position: absolute;
+    left: 80%;
+    display: inline;
+
+}
+
+.icon i {
+    font-size: 18px;
+}
+
+.head h4 {
+    padding-left: 5px;
+    line-height: 49px;
+    font-size: 14px;
+    font-family: 'Artifika', serif;
+}
+
+.head i {
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.style {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.style:hover {
+    background-color: goldenrod;
+}
+
+.style img {
+    width: 160px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    line-height: 50px;
+    padding: 12px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Glory', sans-serif;
+    letter-spacing: 2px;
+}
+
+.menu li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.style h2 {
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.style h2 a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+.clr {
+    clear: both;
+}
+
+.home {
+    width: 100%;
+    position: relative;
+}
+
+.home img {
+    width: 100%;
+    height: 100vh;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+    font-family: 'Kurale', serif;
+}
+
+.layer h5 {
+    font-size: 18px;
+    position: absolute;
+    padding-top: 136px;
+    left: 100px;
+
+}
+
+.layer h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    position: absolute;
+    padding-top: 165px;
+}
+
+.layer p {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 250px;
+    left: 50px;
+
+}
+
+.layer h6 {
+    position: absolute;
+    font-size: 18px;
+    padding-top: 290px;
+    left: 40px;
+}
+
+.layer p span {
+    font-weight: bold;
+    color: rgb(197, 252, 0);
+}
+
+.layer h6 span {
+    font-weight: bolder;
+    color: rgb(208, 255, 0);
+}
+
+.layer button {
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: goldenrod;
+    color: rgb(0, 0, 0);
+    margin-top: 350px;
+    margin-left: -850px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid goldenrod;
+}
+
+.clr {
+    clear: both;
+}
+
+.image img {
+    width: 75%;
+    height: 80vh;
+    margin-left: 90px;
+    margin-top: -50px;
+    box-shadow: 13px 13px rgba(185, 184, 184, 0.822);
+    transition: 1s;
+    position: relative;
+}
+
+.image img:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.over {
+    padding: 30px;
+    text-align: center;
+}
+
+.over h4 span {
+    font-size: 25px;
+    color: rgb(255, 73, 1);
+}
+
+.over h4 {
+    font-size: 22px;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-left: -20px;
+    font-family: 'Stardos Stencil', cursive;
+    letter-spacing: 3px;
+}
+
+.over p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-family: 'Montez', cursive;
+}
+
+.over p span {
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.div {
+    width: 200px;
+    height: 3px;
+    background-color: red;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 35px;
+}
+
+.clr {
+    clear: both;
+}
+
+.name {
+    width: 100%;
+    height: 120vh;
+    background: url(../pic/360_F_249605458_1xmfzQyiLlcV5qpAZ0FjdCDo9r5ymKed.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.name h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(166, 255, 0);
+    font-family: 'Sail', cursive;
+}
+
+.name h4 {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Cherry Swash', cursive;
+    color: rgb(255, 255, 255);
+}
+
+#roar img {
+    width: 100%;
+    height: 35vh;
+    margin-top: 15px;
+    box-shadow: 0 0 8px;
+    transition: 1s;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#roar img:hover {
+    cursor: pointer;
+    transform: translateY(20px);
+}
+
+#roar h5 {
+    background-color: rgb(255, 0, 85);
+    height: 40px;
+    line-height: 40px;
+    transition: 1s;
+    font-size: 18px;
+    font-family: 'Charmonman', cursive;
+}
+
+#roar h5:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+#roar1 img {
+    width: 100%;
+    height: 35vh;
+    margin-top: 20px;
+    box-shadow: 0 0 8px;
+    transition: 1s;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+#roar1 img:hover {
+    cursor: pointer;
+    transform: translateY(20px);
+}
+
+#roar1 h5 {
+    background-color: rgb(255, 0, 43);
+    height: 40px;
+    line-height: 40px;
+    transition: 1s;
+    font-size: 18px;
+    font-family: 'Charmonman', cursive;
+}
+
+#roar1 h5:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.owl-carousel {
+    z-index: -2 !important;
+}
+
+.vid iframe {
+    width: 100%;
+    height: 60vh;
+}
+
+.ban {
+    text-align: center;
+    padding-top: 60px;
+    height: 80vh;
+}
+
+.ban h5 {
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+.ban h1 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.ban h3 {
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+}
+
+.box img {
+    width: 100%;
+    height: 35vh;
+    margin-top: 20px;
+}
+
+.ban button {
+    line-height: 40px;
+    padding: 0 20px;
+    margin-top: 22px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: goldenrod;
+    border-radius: 5px;
+    transition: 0.6s;
+    font-size: 18px;
+
+}
+
+.ban button:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.vd iframe {
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+.text h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(174, 0, 255);
+}
+
+#pic img {
+    width: 100%;
+    height: 35vh;
+    margin-top: 15px;
+    box-shadow: 0 0 8px green;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+#pic1 img {
+    width: 100%;
+    height: 35vh;
+    margin-top: 15px;
+    box-shadow: 0 0 8px green;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.gal h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(174, 0, 255);
+    font-family: 'Aref Ruqaa', serif;
+}
+
+#pic2 img {
+    width: 100%;
+    height: 35vh;
+    margin-top: 15px;
+    box-shadow: 0 0 8px green;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+#pic img:hover {
+    transform: scaleX(0.8);
+    cursor: pointer;
+}
+
+#pic1 img:hover {
+    transform: scaleX(0.8);
+    cursor: pointer;
+}
+
+#pic2 img:hover {
+    transform: scaleX(0.8);
+    cursor: pointer;
+}
+
+.write h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(174, 0, 255);
+    font-family: 'Aref Ruqaa', serif;
+    padding-bottom: 25px;
+}
+
+#dic p {
+    font-family: 'Della Respira', serif;
+    position: relative;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#dic h4 {
+    position: absolute;
+    font-family: 'Della Respira', serif;
+    background-color: rgb(174, 0, 255);
+    border: 1px solid rgb(153, 0, 255);
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    left: 18px;
+    color: white;
+}
+
+#owl h1,
+p {
+    text-align: center;
+}
+
+#owl h1 {
+    padding-top: 50px;
+    font-family: 'Flamenco', cursive;
+    color: rgb(162, 0, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+}
+
+.mast {
+    width: 40%;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 400px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px;
+}
+
+#owl p {
+    font-family: 'Flamenco', cursive;
+    font-size: 25px;
+    color: rgb(140, 0, 255);
+    font-weight: bold;
+}
+
+.ques h3 {
+    color: rgb(174, 0, 255);
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+#pro h5 {
+    text-align: center;
+    color: rgb(174, 0, 255);
+    position: relative;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.cont {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(174, 0, 255);
+    font-size: 40px;
+}
+
+#pro i {
+    position: absolute;
+    left: 25%;
+    font-size: 30px;
+    color: rgb(142, 56, 240);
+}
+
+.form input {
+    margin-top: 60px;
+    margin-left: 200px;
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(174, 0, 255);
+    box-shadow: 0 0 10px goldenrod;
+    padding: 15px;
+}
+
+.form button {
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 620px;
+    margin-top: 40px;
+    transition: 0.7s;
+    font-weight: bolder;
+}
+
+.form button:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#vel {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    padding: 0 15px;
+    background: linear-gradient(rgb(26, 18, 7), rgb(241, 48, 13));
+}
+
+.com {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(140, 0, 255);
+    font-size: 50px;
+}

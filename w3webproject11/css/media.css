@@ -1,0 +1,186 @@
+@media (max-width:1024px) {
+    .head {
+        padding: 0 15px;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    .layer h5 {
+        font-size: 15px;
+        left: 50px;
+    }
+
+    .layer h3 {
+        font-size: 20px;
+    }
+
+    .layer p {
+        font-size: 15px;
+    }
+
+    .layer h6 {
+        font-size: 15px;
+    }
+
+    .layer button {
+        left: 65px;
+    }
+
+    .over h4 {
+        padding: -5s0px;
+    }
+
+    .div {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .over p {
+        margin-top: -30px;
+    }
+
+    #roar h5 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #roar1 h5 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #dic h4 {
+        left: -6px;
+    }
+
+    .mast {
+        width: 50%;
+        margin-left: 250px;
+    }
+
+    #pro {
+        margin-left: 300px;
+    }
+
+    .row iframe {
+        margin-left: 190px;
+    }
+
+    .vd iframe {
+        margin-left: 10px;
+    }
+
+    #vel {
+        height: 120vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .head {
+        padding: 0 8px;
+    }
+
+    .head h4 {
+        font-size: 12px;
+    }
+
+    .head i {
+        font-size: 14px;
+    }
+
+    .menu li a {
+        padding: 5px;
+    }
+
+    .layer button {
+        left: 200px;
+        padding: 0 14px;
+    }
+
+    .image img {
+        width: 30%;
+        height: 30vh;
+    }
+
+    .over {
+        margin-top: -100px;
+    }
+
+    .over h4 {
+        font-size: 20px;
+    }
+
+    .image img {
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+
+    .div {
+        margin-left: 200px;
+    }
+
+    #roar img {
+        width: 60%;
+        height: 230px;
+    }
+
+    .name {
+        height: auto;
+    }
+
+    .name h1 {
+        font-size: 33px;
+        color: blue;
+    }
+
+    #roar1 img {
+        width: 60%;
+        height: 230px;
+    }
+
+    #roar h5 {
+        width: 400px;
+        height: 40px;
+        margin-left: 150px;
+    }
+
+    #roar1 h5 {
+        width: 400px;
+        height: 40px;
+        margin-left: 150px;
+    }
+
+    .ban h1 {
+        font-size: 30px;
+    }
+
+    .ban {
+        padding-top: 26px;
+        height: auto;
+    }
+
+    .box img {
+        width: 60%;
+        height: 230px;
+    }
+
+    #pic img {
+        width: 60%;
+        height: 230px;
+        margin-left: 130px;
+    }
+
+    #pic1 img {
+        width: 60%;
+        height: 230px;
+        margin-left: 130px;
+    }
+
+    #pic2 img {
+        width: 60%;
+        height: 230px;
+        margin-left: 130px;
+    }
+}
